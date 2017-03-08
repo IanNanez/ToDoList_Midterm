@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iannanez.midterm.MainFragment">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Search"-->
+            <!--android:id="@+id/search_button"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Hello"/>-->
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:paddingTop="100dp">
+
+    </ListView>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter Term"
+        android:id="@+id/search_term"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="440dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Search"
+        android:id="@+id/search_button"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/clear_button"
+        android:text="Clear"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="370dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
